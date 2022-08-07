@@ -559,7 +559,7 @@ box-shadow: 22px 15px 28px 0px rgba(0,0,0,0.61);
 .contact{
     position: relative;
     min-height: 100vh;
-    padding: 50px 30px;
+    padding: 20px 100px;
     display: flex;
     justify-content: center;
     align-items: center;
