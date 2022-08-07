@@ -22,7 +22,7 @@ for(var i=0;themeDots.length>i;i++){
 function setTheme(mode){
         
     if(mode=='blue'){
-        document.getElementById('theme-style ') .href = '/css/default.css'
+        document.getElementById('theme-style ') .href = '/css/style.css'
     }
     if(mode=='green'){
         document.getElementById('theme-style ') .href = '/css/green.css'
