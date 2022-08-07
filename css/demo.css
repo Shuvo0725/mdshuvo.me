@@ -1,0 +1,241 @@
+
+:root{
+
+
+    --mainColor:#15202B ;
+    --secondaryColor:#192734;
+
+    --borderColor:#164D56;
+    --mainText:#fff;
+    --secondaryText:#eeeeee;
+
+    --themeDotBorder:#FFF;
+    --previewBg:rgb(25,39,52,0.8);
+    --previewShadow:#111921;
+
+    --submitButtonColor:#17a2b8;
+    --logoColor:rgb(255, 255, 255);
+
+    --aboutBg:#192734;
+    --first-color: hsl(var(--first-hue), var(--sat), var(--lig));
+    --container-color: hsl(var(--second-hue), 32%, 12%);
+
+    /* For font*/
+    --biggest-font-size: 1.75rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+    --smaller-font-size: .75rem;
+    --tiny-font-size: .625rem;
+    --font-medium: 500;
+    --font-semibold: 600;
+}
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: var(--mainColor);
+}
+.contact .content-2{
+    max-width: 800px;
+    text-align: center;
+
+}
+
+.contact .content-2 h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 15px;
+
+}
+.contact .content-2 p{
+    
+    font-weight: 300;
+    color: #fff;
+    
+}
+.containerTex{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+}
+.containerTex .contactInfo .box
+{
+    position: relative;
+    padding: 25px 0;
+    display: flex; 
+}
+
+.containerTex .contactInfo .box .icon{
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+.containerTex .contactInfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+}
+.containerTex .contactInfo .box .text h3{
+    font-weight: 500;
+    color: #00bcd4;
+}
+#btn{
+    width: 70px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background: #00bcd4;
+    
+}
+#btn a{
+    text-decoration: none;
+    color: #fff;
+}
+#btn a:hover{
+
+    color: brown;
+}
+
+#btn:hover{
+    background: rgb(13, 41, 13);
+}
+
+.main-container2{
+    overflow: hidden;
+    
+}
+
+footer{
+    background: #0f3c43c9;
+    padding-top:  20px;
+    
+
+}
+.footer_container{
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 20px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+
+.fLogo{
+    width: 180px;
+}
+.socialme{
+margin: 20px 0;
+}
+.socialme a{
+    color: rgba(207, 233, 224, 0.682);
+    margin-right: 25px;
+    font-size: 22px;
+    text-decoration: none;
+    transition: .3s linear;
+}
+
+.socialme a:hover{
+    color: #fc5c65;
+}
+
+.right__Col h2{
+    font-size: 26px;
+}
+.right__Col p{
+    margin: 15px 0;
+}
+.rights__text{
+    color: beige;
+}
+.border{
+    width: 100px;
+    height: 4px;
+    background: #fc5c65;
+    margin: 19px 0;
+}
+.newsletter_form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+
+.txtb{
+    flex: 1;
+    padding: 18px 40px;
+    font-size: 16px;
+    color: #293043;
+    background: #ddd;
+    border: none;
+    font-weight: 700;
+    outline: none;
+    border-radius: 30px;
+    min-width: 260px;
+}
+.submitBTN{
+    
+    padding: 18px 40px;
+    font-size: 16px;
+    color: #f1f1f1;
+    background: #fc5c65;
+    border: none;
+    font-weight: 700;
+    outline: none;
+    border-radius: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: .3 linear;
+
+}
+.submitBTN:hover{
+    opacity: .7;
+}
+.footer-bottom{
+   background-color: rgba(12, 54, 86, 0.749);
+    width: 100vw;
+    padding: 10px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+#screen_msg{
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+

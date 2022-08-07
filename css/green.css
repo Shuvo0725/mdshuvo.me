@@ -1,0 +1,19 @@
+:root{
+    --mainColor:#061f1cc8 ;
+    --secondaryColor:#091110;
+
+    --borderColor:#161914;
+
+    --mainText:#fff;
+    --secondaryText:#eeeeee;
+
+    --themeDotBorder:#FFF;
+
+    --previewBg:rgb(81,90,72,0.8);
+    --previewShadow:#2a2f25;
+
+    --submitButtonColor:#669966;
+    --logoColor:rgb(255, 255, 255);
+
+    --aboutBg:#091110;
+}
